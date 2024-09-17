@@ -114,3 +114,63 @@ body {
 .today {
   margin-bottom: 25px;
 }
+
+.editorial {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.q1-goals {
+  background-color: violet;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recruiting {
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mobile {
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.website {
+  background-color: pink;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sales {
+  background-color: lightgreen;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
