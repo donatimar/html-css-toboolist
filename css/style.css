@@ -10,7 +10,7 @@
 
 /* # UTILS */
 
-.container header {
+.container-header {
     margin: 10px 20px;
     padding: 0 10px;
     width: 1000px;
@@ -59,7 +59,7 @@
   color: white;
   border: 1px solid black;
   border-radius: 15%;
-  padding: 4px 8px;
+  padding: 6px 12px;
   text-decoration: none;
   font-weight: bold;
 
@@ -70,7 +70,7 @@
   color: grey;
   border: 1px solid black;
   border-radius: 15%;
-  padding: 4px 8px;
+  padding: 6px 12px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -115,62 +115,18 @@ body {
   margin-bottom: 25px;
 }
 
-.editorial {
-  background-color: blue;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20%;
-  padding: 4px 8px;
-  text-decoration: none;
-  font-weight: bold;
+  .editorial, .q1-goals, .recruiting, .mobile, .website, .sales {
+    color: white;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.q1-goals {
-  background-color: violet;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20%;
-  padding: 4px 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.recruiting {
-  background-color: green;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20%;
-  padding: 4px 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.mobile {
-  background-color: orange;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20%;
-  padding: 4px 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.website {
-  background-color: pink;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20%;
-  padding: 4px 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.sales {
-  background-color: lightgreen;
-  color: white;
-  border: 1px solid black;
-  border-radius: 20%;
-  padding: 4px 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
+.editorial { background-color: blue; }
+.q1-goals { background-color: violet; }
+.recruiting { background-color: green; }
+.mobile { background-color: orange; }
+.website { background-color: pink; }
+.sales { background-color: lightgreen; }
