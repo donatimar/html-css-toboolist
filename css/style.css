@@ -4,16 +4,26 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 
 /* # UTILS */
 
-.container {
+.container header {
     margin: 10px 20px;
     padding: 0 10px;
     width: 1000px;
     max-width: 100%;
+}
+
+.container-main {
+  margin: 0 auto;
+    padding: 0 30px;
+    width: 1000px;
+    max-width: 100%;
+    border: 1px solid grey;
+    background-color: white;
 }
 
 /* # HEADER */
@@ -21,6 +31,7 @@
 .header {
   line-height: 100px;
   margin-bottom: 50px;
+  background-color: white;
 }
 
 .logo-image {
@@ -31,9 +42,17 @@
 .logo-title {
   display: inline;
   vertical-align: middle;
+  font-weight: bolder;
+  font-size: 40px;
 }
 
 /* # MAIN */
+
+.buttons {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
 
 .button-task {
   background-color: blue;
@@ -78,5 +97,12 @@
   border: 1px solid currentColor;
   border-radius: 50%;
   font-size: 20px;
+}
 
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #D3D3D3;
 }
