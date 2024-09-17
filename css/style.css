@@ -10,9 +10,73 @@
 /* # UTILS */
 
 .container {
-    margin: 0 auto;
+    margin: 10px 20px;
     padding: 0 10px;
     width: 1000px;
     max-width: 100%;
 }
 
+/* # HEADER */
+
+.header {
+  line-height: 100px;
+  margin-bottom: 50px;
+}
+
+.logo-image {
+  height: 100px;
+  vertical-align: middle;
+}
+
+.logo-title {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* # MAIN */
+
+.button-task {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 15%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.button-section {
+  background-color: white;
+  color: grey;
+  border: 1px solid black;
+  border-radius: 15%;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.yes {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: green;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.nope {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: red;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 20px;
+
+}
